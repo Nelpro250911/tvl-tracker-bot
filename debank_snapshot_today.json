@@ -1,0 +1,405 @@
+{
+  "timestamp": "2025-07-23T18:11:50.878519",
+  "wallets": [
+    {
+      "address": "0x9333765e78f8629e38f3d7f58373a8313deb396a",
+      "TVL_usd": 59927
+    },
+    {
+      "address": "0x8be9d1eb48140446ae719593609df56ba62ec6c7",
+      "TVL_usd": 59838
+    },
+    {
+      "address": "0x17bd2ee5eff3f7e7b5e4d018cb937b4f20aa0a02",
+      "TVL_usd": 59275
+    },
+    {
+      "address": "0x4c4e6f8f83465c58158e501823332146f0b71f1c",
+      "TVL_usd": 58775
+    },
+    {
+      "address": "0x39d0ab4eb3689ab433bb9ffcd8adef50d515b253",
+      "TVL_usd": 58087
+    },
+    {
+      "address": "0x8d457573a5ae4c82bb3ea44729e54ca0c7b9a3ed",
+      "TVL_usd": 57950
+    },
+    {
+      "address": "0x440d7f1fd9667b95e61f6d5f87d1460e3f3b9f3f",
+      "TVL_usd": 57577
+    },
+    {
+      "address": "0xa403591319316f2c3c8466c84551ec3bd28ffdfd",
+      "TVL_usd": 57543
+    },
+    {
+      "address": "0x61ab3d72c1ea4497523fe041b5943bac93757c4c",
+      "TVL_usd": 56707
+    },
+    {
+      "address": "0x239cf45c0ea913ae3707e12505a528e8d4880d83",
+      "TVL_usd": 56511
+    },
+    {
+      "address": "0xaba2fa06e73fdc3cdcdaf777754e0f19162bab20",
+      "TVL_usd": 56140
+    },
+    {
+      "address": "0xf89211129727fc25fca4c7886a5c2ae0e15fa34b",
+      "TVL_usd": 56113
+    },
+    {
+      "address": "0x6fd70dac8d537a1751a83ed8bdd78e3b39ca733b",
+      "TVL_usd": 55609
+    },
+    {
+      "address": "0x3b8162b5ad44ac63837f93686180c4e5231ef66c",
+      "TVL_usd": 55234
+    },
+    {
+      "address": "0x1a50c5ea478998cf8f1d0715ca24c56a26c0ac09",
+      "TVL_usd": 55169
+    },
+    {
+      "address": "0x65af3a2c4befa26c45aa05751407d0ac27f84d79",
+      "TVL_usd": 54783
+    },
+    {
+      "address": "0xec9459bfa2fc2a086f099d9a4f8f019caba68256",
+      "TVL_usd": 54411
+    },
+    {
+      "address": "0xc189c52765fc8707be10ad982e1ce46fd7c68909",
+      "TVL_usd": 54269
+    },
+    {
+      "address": "0x0f228a93690cfbba56098199d005380df6f83f5e",
+      "TVL_usd": 52891
+    },
+    {
+      "address": "0xdf13cbba9649506f56ab0b0b56e5e1f3b1916f12",
+      "TVL_usd": 52341
+    },
+    {
+      "address": "0x8ccd7ecffe22fb8fcd657c7974b7d85c4f12a749",
+      "TVL_usd": 52142
+    },
+    {
+      "address": "0xa4bbadb486d2247768a121360377db49525fdefd",
+      "TVL_usd": 51763
+    },
+    {
+      "address": "0x54c82d8296b6be6a74632f905074d4714665b518",
+      "TVL_usd": 51429
+    },
+    {
+      "address": "0xeaef7888a2f6d2c10f3a31a764e1156a63d6316d",
+      "TVL_usd": 51166
+    },
+    {
+      "address": "0xd85a2f2d4278b739858bc84e68b04272f77ef72d",
+      "TVL_usd": 50148
+    },
+    {
+      "address": "0xdb96262b6ce3f0d506fae936326bd9b2d7723fa1",
+      "TVL_usd": 50077
+    },
+    {
+      "address": "0xda8d4dbc9c435494b6ad018c4653cc6213ae81fb",
+      "TVL_usd": 49661
+    },
+    {
+      "address": "0xd80360fd908ca37b9517a75ada3f4c83b4159106",
+      "TVL_usd": 48997
+    },
+    {
+      "address": "0xd1449ec660439c5a5f3e76cdf628915125ff462f",
+      "TVL_usd": 48703
+    },
+    {
+      "address": "0xdd972576ea25b9964a9183ecae6c906087556daa",
+      "TVL_usd": 48413
+    },
+    {
+      "address": "0x8c12dd463be6652879db72f534189beddaa52d7c",
+      "TVL_usd": 47755
+    },
+    {
+      "address": "0xd759347e8b28adcdf32947392132a461eb63e9c1",
+      "TVL_usd": 47621
+    },
+    {
+      "address": "0x08e5be2575efee4a0d348431308b01693419ee42",
+      "TVL_usd": 47395
+    },
+    {
+      "address": "0xb28a2dd6b7381c8bb5015c1fcd6c0a68285bb361",
+      "TVL_usd": 47143
+    },
+    {
+      "address": "0xd0ce5288b15c447922917507cb0e27152be0ed1d",
+      "TVL_usd": 46897
+    },
+    {
+      "address": "0x99889946d4cd4cee8d558651f3da0c1c2bafa6fe",
+      "TVL_usd": 46795
+    },
+    {
+      "address": "0x3d2071e6ac33426a8ee9e2db7e6989d43d6ad2fa",
+      "TVL_usd": 46259
+    },
+    {
+      "address": "0xac68b26cb1c012109b1d06821f268f293b52d854",
+      "TVL_usd": 45508
+    },
+    {
+      "address": "0x57d0a057235e1eda0ff788ffbaf68835d8258887",
+      "TVL_usd": 44780
+    },
+    {
+      "address": "0x52dbb0ec4a13482b8c2973adee33d93ab99b740e",
+      "TVL_usd": 42736
+    },
+    {
+      "address": "0xfcded51554e425d7de26cdb1d613140758644173",
+      "TVL_usd": 42630
+    },
+    {
+      "address": "0x51236c5eae4d703fe29e76696a2b30015e370e96",
+      "TVL_usd": 41251
+    },
+    {
+      "address": "0x8ae5df7ba6f95eac6942efe130e73ae62d4ec85b",
+      "TVL_usd": 41028
+    },
+    {
+      "address": "0xf80ba288c0da9be8532df6c2dca21047eaa9701b",
+      "TVL_usd": 40314
+    },
+    {
+      "address": "0xbff6d6193ddaa6ebafdb9b81a39b50289806bbbc",
+      "TVL_usd": 40277
+    },
+    {
+      "address": "0xe0d2c580ff2621c2f39badf680a353ec902dd6af",
+      "TVL_usd": 40185
+    },
+    {
+      "address": "0xd392722660101bd2793b27bae74d3628bf9b7af5",
+      "TVL_usd": 40163
+    },
+    {
+      "address": "0xc960497b93d8937e815076526ea48e06db0eb036",
+      "TVL_usd": 39779
+    },
+    {
+      "address": "0x2b6729ded006635b3a4edbb0f856cd4ba9fd50cc",
+      "TVL_usd": 39707
+    },
+    {
+      "address": "0x685d05279177809e852be44f65116ab9d44f28d5",
+      "TVL_usd": 38796
+    },
+    {
+      "address": "0xff5dc3b25543d9aa330414cdadc59a06366e77ee",
+      "TVL_usd": 38746
+    },
+    {
+      "address": "0x8807e853540028bc5c78d33c8d50c97c68f5293c",
+      "TVL_usd": 37891
+    },
+    {
+      "address": "0xaf4dd9773dcbbcef29069d0ea645f1ee60573e28",
+      "TVL_usd": 37685
+    },
+    {
+      "address": "0x3ce13a87d275ba012f1dc1dd18525101caab4e22",
+      "TVL_usd": 37610
+    },
+    {
+      "address": "0xbdcbf3b8304a0facffde33cbcc4fff736021f329",
+      "TVL_usd": 37525
+    },
+    {
+      "address": "0xd5225cf31a277c629ac0c92ee420db6589ce1853",
+      "TVL_usd": 37444
+    },
+    {
+      "address": "0x185511a93fea5ed6bf64f936d0c0c7ebabff5f71",
+      "TVL_usd": 37378
+    },
+    {
+      "address": "0xd64b5c516b863ab624b4cb47a20861510d8cd5ae",
+      "TVL_usd": 36727
+    },
+    {
+      "address": "0x238935759de9f8cf17729b97830791bed78f68fb",
+      "TVL_usd": 36414
+    },
+    {
+      "address": "0xc4fefa38867371a01d18d8b2329e0b37e0840426",
+      "TVL_usd": 35485
+    },
+    {
+      "address": "0x79de15062d912fe311f555ad4e0fb57587c9c3a6",
+      "TVL_usd": 35453
+    },
+    {
+      "address": "0xa59339887804651dc4d08b0eb72e2eec24d56405",
+      "TVL_usd": 35435
+    },
+    {
+      "address": "0x7337ea974c4cbbada351cca2e5034f89b8c3fda4",
+      "TVL_usd": 35388
+    },
+    {
+      "address": "0xe1e66ceb1e7f6b14adebbafcf31989c5d7fec8bb",
+      "TVL_usd": 34830
+    },
+    {
+      "address": "0xf28cdd9fae5f76ba936f7354f234f5969f444ccc",
+      "TVL_usd": 33194
+    },
+    {
+      "address": "0x005994a5f019124513ab3533b7c82234189a2c69",
+      "TVL_usd": 32803
+    },
+    {
+      "address": "0xbcc9bcd35c83e287869d73bafcf745dc383cea16",
+      "TVL_usd": 32032
+    },
+    {
+      "address": "0x660a8f5d0a2db193eb6affe63ecc2afa8ae0ca7f",
+      "TVL_usd": 30899
+    },
+    {
+      "address": "0xc284e8ee406f6e48cf6d8c4a2b57c930b610532e",
+      "TVL_usd": 30148
+    },
+    {
+      "address": "0x981451b89021eccaa4770aa4eb04722fc5d58a47",
+      "TVL_usd": 30130
+    },
+    {
+      "address": "0x507e65d4788948d72930cf128275bc089c49d31b",
+      "TVL_usd": 29987
+    },
+    {
+      "address": "0x5cb49cd4d608681cacc5f535a282deb3450c558d",
+      "TVL_usd": 29107
+    },
+    {
+      "address": "0xdc387cd5b5c165ee435091b921ac5d8187bd7d30",
+      "TVL_usd": 27985
+    },
+    {
+      "address": "0x9cbf78db0918edb31e2ff2b391692da8353c578f",
+      "TVL_usd": 27907
+    },
+    {
+      "address": "0x99302b7ac06d3a1e70c69cd399123e903a28041e",
+      "TVL_usd": 27633
+    },
+    {
+      "address": "0x4baaedc6c3acc17707d7fadd111a350e1251b874",
+      "TVL_usd": 26772
+    },
+    {
+      "address": "0x94a4e9a59a23e6d4f4432fb06ff6f8d2c6029c35",
+      "TVL_usd": 26307
+    },
+    {
+      "address": "0x664a140120fabe1d7a69b2055f60bf416fa54ef8",
+      "TVL_usd": 25754
+    },
+    {
+      "address": "0xf6ea5b0f19ce0d8d0e2262720162ad60e6cce63e",
+      "TVL_usd": 25703
+    },
+    {
+      "address": "0xea8cc1ce100f89633d7fcce9a9e488c810cb36b0",
+      "TVL_usd": 25476
+    },
+    {
+      "address": "0x1d8b84095d2c4a37b69aa75c334d53a747585b5e",
+      "TVL_usd": 24027
+    },
+    {
+      "address": "0xc67b5382b729bec87b0bd995d4b2ad1e50428689",
+      "TVL_usd": 23984
+    },
+    {
+      "address": "0x172563915e5a12e74d7cfd59a92901d338d4171a",
+      "TVL_usd": 22987
+    },
+    {
+      "address": "0x9fc87ad3ce578b104471aaf6dbd27e2579c2e59b",
+      "TVL_usd": 22317
+    },
+    {
+      "address": "0xbd28c96271d7652dab84af4a1350e91601754321",
+      "TVL_usd": 22186
+    },
+    {
+      "address": "0xc90ebd22636e7b975128082a5c2c4f6374ac5f70",
+      "TVL_usd": 21109
+    },
+    {
+      "address": "0x802c12aa04a9bb040a6a2d4a8609b38747242f4f",
+      "TVL_usd": 20960
+    },
+    {
+      "address": "0xb994c712591f7993e3e2607b78adb16c50d8dd7c",
+      "TVL_usd": 18974
+    },
+    {
+      "address": "0xa5f7feabddd7fa2f4043226b169ec2e92dd92995",
+      "TVL_usd": 18676
+    },
+    {
+      "address": "0xa3d1ed939cafed3479225963ab88ee51a1154036",
+      "TVL_usd": 17943
+    },
+    {
+      "address": "0xa8acf2d03c80bd06dfd3287e2b93ade0919913a4",
+      "TVL_usd": 16192
+    },
+    {
+      "address": "0x54ab1a0ad1a1793486a18771b280ed94c609ed1e",
+      "TVL_usd": 15444
+    },
+    {
+      "address": "0xe1cafbb1e3d03bd13419e5428ec2aab2b6ebe84a",
+      "TVL_usd": 15202
+    },
+    {
+      "address": "0x68041e327c778264f507eaf87df6fed65e552e58",
+      "TVL_usd": 15027
+    },
+    {
+      "address": "0xe36531916f66e24a5d7ad0605da1d1957f97df90",
+      "TVL_usd": 14343
+    },
+    {
+      "address": "0xae1927a7dcac37a76aa2a831782a8a8ff4706087",
+      "TVL_usd": 14242
+    },
+    {
+      "address": "0xf79dd4ff75e2b6fb796bcbeeac58ca4310408846",
+      "TVL_usd": 11674
+    },
+    {
+      "address": "0x3acb976a0131ae0a8c55d975c242e29ca238e51c",
+      "TVL_usd": 11346
+    },
+    {
+      "address": "0x973c7ef596ed1e14bd8a22a5f3bafe86a4df9041",
+      "TVL_usd": 11304
+    },
+    {
+      "address": "0x6c01cea5501513cebd22eba9ae83f7b59e9c7e88",
+      "TVL_usd": 10327
+    }
+  ]
+}
