@@ -3,13 +3,31 @@ import random
 from datetime import datetime
 import pandas as pd
 import telebot
+import os
+import shutil
 
 # Токен бота
 API_TOKEN = '8020814659:AAH01nN7XntKmXMLzzCa3onTqqThyq1PIKc'
 bot = telebot.TeleBot(API_TOKEN)
 
+# === БЭКАП ===
+original_file = 'debank_snapshot_today.json'
+date_tag = datetime.utcnow().strftime('%Y%m%d_%H%M')
+backup_file = f'backup/debank_snapshot_{date_tag}.json'
+os.makedirs('backup', exist_ok=True)
+shutil.copyfile(original_file, backup_file)
+
+# ЛОГ
+log_entry = f"{datetime.utcnow().isoformat()} — Скопирован файл в {backup_file}\n"
+with open('backup/backup_log.txt', 'a') as log:
+    log.write(log_entry)
+
+# Уведомление о бэкапе
+bot.send_message(chat_id=1900314873, text=f"✅ Бэкап создан: {backup_file}")
+
+# === ОБНОВЛЕНИЕ ТВЛ ===
 # Загрузка старого снимка
-with open('debank_snapshot_today.json', 'r') as f:
+with open(original_file, 'r') as f:
     old_snapshot = json.load(f)
 
 # Генерация нового TVL со случайным приростом 5-25%
@@ -34,7 +52,7 @@ new_snapshot = {
     "wallets": new_wallets
 }
 
-with open("debank_snapshot_today.json", "w") as f:
+with open(original_file, "w") as f:
     json.dump(new_snapshot, f, indent=2)
 
 # Отправка уведомлений
@@ -43,4 +61,5 @@ for addr, diff, pct, total in alerts:
            f"Новый TVL: ${total}")
     bot.send_message(chat_id=1900314873, text=msg)
 
-print("Обновление завершено. Уведомления отправлены.")
+print("Обновление завершено. Уведомления отправлены. Бэкап сохранён.")
+
