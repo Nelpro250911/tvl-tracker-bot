@@ -1,0 +1,46 @@
+import json
+import random
+from datetime import datetime
+import pandas as pd
+import telebot
+
+# Токен бота
+API_TOKEN = '8020814659:AAH01nN7XntKmXMLzzCa3onTqqThyq1PIKc'
+bot = telebot.TeleBot(API_TOKEN)
+
+# Загрузка старого снимка
+with open('debank_snapshot_today.json', 'r') as f:
+    old_snapshot = json.load(f)
+
+# Генерация нового TVL со случайным приростом 5-25%
+new_wallets = []
+alerts = []
+for w in old_snapshot['wallets']:
+    base = w['TVL_usd']
+    growth_factor = 1 + random.uniform(0.05, 0.25)
+    new_balance = round(base * growth_factor, 2)
+    diff = round(new_balance - base, 2)
+    pct = round((diff / base) * 100, 2)
+    new_wallets.append({
+        "address": w['address'],
+        "TVL_usd": new_balance
+    })
+    if pct >= 15:
+        alerts.append((w['address'], diff, pct, new_balance))
+
+# Сохраняем новый снимок
+new_snapshot = {
+    "timestamp": datetime.utcnow().isoformat(),
+    "wallets": new_wallets
+}
+
+with open("debank_snapshot_today.json", "w") as f:
+    json.dump(new_snapshot, f, indent=2)
+
+# Отправка уведомлений
+for addr, diff, pct, total in alerts:
+    msg = (f"\u26A1 Кошелёк {addr[:10]}... вырос на +${diff} ({pct}%)\n"
+           f"Новый TVL: ${total}")
+    bot.send_message(chat_id=1900314873, text=msg)
+
+print("Обновление завершено. Уведомления отправлены.")
