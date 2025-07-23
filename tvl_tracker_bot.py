@@ -2,7 +2,7 @@ import telebot
 import pandas as pd
 import json
 
-API_TOKEN = 'YOUR_BOT_TOKEN_HERE'  # Заменить на токен от BotFather
+API_TOKEN = '8020814659:AAH01nN7XntKmXMLzzCa3onTqqThyq1PIKc'
 bot = telebot.TeleBot(API_TOKEN)
 
 # Загрузка текущих данных роста TVL
