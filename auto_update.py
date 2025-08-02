@@ -7,7 +7,7 @@ import telebot
 import os
 import shutil
 
-API_TOKEN = os.getenv('API_TOKEN', 'YOUR_BOT_TOKEN_HERE')
+API_TOKEN = '8020814659:AAH01nN7XntKmXMLzzCa3onTqqThyq1PIKc'
 bot = telebot.TeleBot(API_TOKEN)
 
 original_file = 'debank_snapshot_today.json'
