@@ -1,3 +1,4 @@
+
 import telebot
 import pandas as pd
 import json
@@ -18,6 +19,10 @@ def calculate_growth():
     for w in wallets:
         base = w.get('TVL_usd_start') or round(w['TVL_usd'] / 1.15, 2)
         current = w['TVL_usd']
+
+        if base < 100:
+            continue
+
         diff = round(current - base, 2)
         pct = round((diff / base) * 100, 2)
         growth_data.append({
@@ -46,7 +51,9 @@ def top_wallets(message):
     if df.empty:
         bot.send_message(message.chat.id, "Нет данных.")
         return
-    reply = "<b>📈 ТОП-10 кошельков по росту TVL:</b>\n\n"
+    reply = "<b>📈 ТОП-10 кошельков по росту TVL:</b>
+
+"
     for i, row in df.iterrows():
         reply += format_wallet_line(i, row) + "\n"
     bot.send_message(message.chat.id, reply, disable_web_page_preview=True)
@@ -57,12 +64,13 @@ def all_wallets(message):
     if df.empty:
         bot.send_message(message.chat.id, "Нет данных.")
         return
-    reply = "<b>📊 Все кошельки по росту TVL:</b>\n\n"
+    reply = "<b>📊 Все кошельки по росту TVL:</b>
+
+"
     for i, row in df.iterrows():
         reply += format_wallet_line(i, row) + "\n"
     for chunk in [reply[i:i+4000] for i in range(0, len(reply), 4000)]:
         bot.send_message(message.chat.id, chunk, disable_web_page_preview=True)
 
-# Удаляем возможный вебхук, чтобы избежать ошибки 409
 bot.remove_webhook()
 bot.infinity_polling()
