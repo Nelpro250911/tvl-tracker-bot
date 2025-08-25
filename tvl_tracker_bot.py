@@ -59,4 +59,4 @@ def all_wallets(message):
         reply += f"{i+1}. {row['address'][:10]}... → +${row['growth_$']} ({row['growth_%']}%)\n"
     bot.send_message(message.chat.id, reply[:4000])
 
-bot.polling(none_stop=True)
+bot.infinity_polling(none_stop=True)
