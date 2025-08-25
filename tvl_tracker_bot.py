@@ -18,7 +18,7 @@ def calculate_growth():
     growth_data = []
     for w in wallets:
         base = w.get('TVL_usd_start') or round(w['TVL_usd'] / 1.15, 2)
-        if base < 100:
+        if base < 100:  # Фильтруем пустые/неактивные кошельки
             continue
         current = w['TVL_usd']
         diff = round(current - base, 2)
@@ -60,11 +60,11 @@ def all_wallets(message):
     if df.empty:
         bot.send_message(message.chat.id, "Нет данных.")
         return
-    reply = "<b>📊 Все кошельки по росту TVL:</b>\n\n"
-    for i, row in df.iterrows():
-        reply += format_wallet_line(i, row) + "\n"
-    for chunk in [reply[i:i+4000] for i in range(0, len(reply), 4000)]:
-        bot.send_message(message.chat.id, chunk, disable_web_page_preview=True)
+    reply_lines = [format_wallet_line(i, row) for i, row in df.iterrows()]
+    for chunk_start in range(0, len(reply_lines), 50):  # делим на части по 50 записей
+        chunk = reply_lines[chunk_start:chunk_start+50]
+        reply = "<b>📊 Кошельки по росту TVL:</b>\n\n" + "\n".join(chunk)
+        bot.send_message(message.chat.id, reply, disable_web_page_preview=True)
 
 bot.remove_webhook()
 bot.infinity_polling()
