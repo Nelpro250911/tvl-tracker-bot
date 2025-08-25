@@ -61,4 +61,3 @@ def all_wallets(message):
 
 bot.remove_webhook()
 bot.infinity_polling()
-
