@@ -19,10 +19,8 @@ def calculate_growth():
     for w in wallets:
         base = w.get('TVL_usd_start') or round(w['TVL_usd'] / 1.15, 2)
         current = w['TVL_usd']
-
         if base < 100:
             continue
-
         diff = round(current - base, 2)
         pct = round((diff / base) * 100, 2)
         growth_data.append({
@@ -55,7 +53,8 @@ def top_wallets(message):
 
 "
     for i, row in df.iterrows():
-        reply += format_wallet_line(i, row) + "\n"
+        reply += format_wallet_line(i, row) + "
+"
     bot.send_message(message.chat.id, reply, disable_web_page_preview=True)
 
 @bot.message_handler(commands=['все'])
@@ -68,7 +67,8 @@ def all_wallets(message):
 
 "
     for i, row in df.iterrows():
-        reply += format_wallet_line(i, row) + "\n"
+        reply += format_wallet_line(i, row) + "
+"
     for chunk in [reply[i:i+4000] for i in range(0, len(reply), 4000)]:
         bot.send_message(message.chat.id, chunk, disable_web_page_preview=True)
 
