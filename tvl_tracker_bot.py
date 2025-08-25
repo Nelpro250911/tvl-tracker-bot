@@ -18,9 +18,9 @@ def calculate_growth():
     growth_data = []
     for w in wallets:
         base = w.get('TVL_usd_start') or round(w['TVL_usd'] / 1.15, 2)
-        current = w['TVL_usd']
         if base < 100:
             continue
+        current = w['TVL_usd']
         diff = round(current - base, 2)
         pct = round((diff / base) * 100, 2)
         growth_data.append({
@@ -49,12 +49,9 @@ def top_wallets(message):
     if df.empty:
         bot.send_message(message.chat.id, "Нет данных.")
         return
-    reply = "<b>📈 ТОП-10 кошельков по росту TVL:</b>
-
-"
+    reply = "<b>📈 ТОП-10 кошельков по росту TVL:</b>\n\n"
     for i, row in df.iterrows():
-        reply += format_wallet_line(i, row) + "
-"
+        reply += format_wallet_line(i, row) + "\n"
     bot.send_message(message.chat.id, reply, disable_web_page_preview=True)
 
 @bot.message_handler(commands=['все'])
@@ -63,12 +60,9 @@ def all_wallets(message):
     if df.empty:
         bot.send_message(message.chat.id, "Нет данных.")
         return
-    reply = "<b>📊 Все кошельки по росту TVL:</b>
-
-"
+    reply = "<b>📊 Все кошельки по росту TVL:</b>\n\n"
     for i, row in df.iterrows():
-        reply += format_wallet_line(i, row) + "
-"
+        reply += format_wallet_line(i, row) + "\n"
     for chunk in [reply[i:i+4000] for i in range(0, len(reply), 4000)]:
         bot.send_message(message.chat.id, chunk, disable_web_page_preview=True)
 
