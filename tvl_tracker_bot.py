@@ -1,13 +1,11 @@
-
 import telebot
 import pandas as pd
 import json
 import os
 
 API_TOKEN = os.getenv('API_TOKEN', 'YOUR_BOT_TOKEN_HERE')
-bot = telebot.TeleBot(API_TOKEN)
+bot = telebot.TeleBot(API_TOKEN, parse_mode='HTML')
 
-# Загружает актуальные данные каждый раз при вызове
 def calculate_growth():
     try:
         with open('debank_snapshot_today.json', 'r') as f:
@@ -33,6 +31,11 @@ def calculate_growth():
     df = pd.DataFrame(growth_data).sort_values(by='growth_%', ascending=False).reset_index(drop=True)
     return df
 
+def format_wallet_line(i, row):
+    link = f"https://debank.com/profile/{row['address']}"
+    color_emoji = "🟢" if row['growth_$'] >= 0 else "🔴"
+    return f"{color_emoji} <b><a href='{link}'>{row['address'][:10]}...</a></b> → {row['growth_$']:+.2f}$ ({row['growth_%']:+.2f}%)"
+
 @bot.message_handler(commands=['start'])
 def start(message):
     bot.reply_to(message, "Привет! Я бот для отслеживания роста TVL у кошельков DeFi. Используй /топ или /все.")
@@ -43,10 +46,10 @@ def top_wallets(message):
     if df.empty:
         bot.send_message(message.chat.id, "Нет данных.")
         return
-    reply = "\U0001F4C8 ТОП-10 кошельков по росту TVL:\n"
+    reply = "<b>📈 ТОП-10 кошельков по росту TVL:</b>\n\n"
     for i, row in df.iterrows():
-        reply += f"{i+1}. {row['address'][:10]}... → +${row['growth_$']} ({row['growth_%']}%)\n"
-    bot.send_message(message.chat.id, reply)
+        reply += format_wallet_line(i, row) + "\n"
+    bot.send_message(message.chat.id, reply, disable_web_page_preview=True)
 
 @bot.message_handler(commands=['все'])
 def all_wallets(message):
@@ -54,10 +57,12 @@ def all_wallets(message):
     if df.empty:
         bot.send_message(message.chat.id, "Нет данных.")
         return
-    reply = "\U0001F4CA Все кошельки по росту TVL:\n"
+    reply = "<b>📊 Все кошельки по росту TVL:</b>\n\n"
     for i, row in df.iterrows():
-        reply += f"{i+1}. {row['address'][:10]}... → +${row['growth_$']} ({row['growth_%']}%)\n"
-    bot.send_message(message.chat.id, reply[:4000])
+        reply += format_wallet_line(i, row) + "\n"
+    for chunk in [reply[i:i+4000] for i in range(0, len(reply), 4000)]:
+        bot.send_message(message.chat.id, chunk, disable_web_page_preview=True)
 
+# Удаляем возможный вебхук, чтобы избежать ошибки 409
 bot.remove_webhook()
 bot.infinity_polling()
