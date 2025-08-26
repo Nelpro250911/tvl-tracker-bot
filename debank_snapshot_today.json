@@ -3,403 +3,503 @@
   "wallets": [
     {
       "address": "0x5b2674d0c46e672a49b6fac14fe7d1d9048cc815",
-      "TVL_usd": 47742.19
+      "TVL_usd": 47742.19,
+      "TVL_usd_start": 41514.95
     },
     {
       "address": "0x96d54852d5c800189d9171ef59b69716eaddf5eb",
-      "TVL_usd": 63758.04
+      "TVL_usd": 63758.04,
+      "TVL_usd_start": 55441.77
     },
     {
       "address": "0xab24e8a5e4150b59494733b14d2642570a60818c",
-      "TVL_usd": 58065.55
+      "TVL_usd": 58065.55,
+      "TVL_usd_start": 50491.78
     },
     {
       "address": "0xbdbb2474f74d92e9966fa8226ed678662ff6234f",
-      "TVL_usd": 39178.32
+      "TVL_usd": 39178.32,
+      "TVL_usd_start": 34068.1
     },
     {
       "address": "0x8cff1dd0410b1952e54f4c89af76948153bbe96a",
-      "TVL_usd": 75099.92
+      "TVL_usd": 75099.92,
+      "TVL_usd_start": 65304.28
     },
     {
       "address": "0x9ddd156ce0cae2607c7dbd536f622b494a524385",
-      "TVL_usd": 98053.63
+      "TVL_usd": 98053.63,
+      "TVL_usd_start": 85264.03
     },
     {
       "address": "0x897fe3875826a9019a92e25385ed9ba260cd7477",
-      "TVL_usd": 69026.58
+      "TVL_usd": 69026.58,
+      "TVL_usd_start": 60023.11
     },
     {
       "address": "0x4876c85082bece64615ed74f03cbe934529ec62b",
-      "TVL_usd": 93642.35
+      "TVL_usd": 93642.35,
+      "TVL_usd_start": 81428.13
     },
     {
       "address": "0xd6919efccb601e8b0cb5bb0a943947f361e8f098",
-      "TVL_usd": 74013.98
+      "TVL_usd": 74013.98,
+      "TVL_usd_start": 64359.98
     },
     {
       "address": "0x6c531ac226cfed3496cc43d3d1b296e3d7a1f4fb",
-      "TVL_usd": 22276.96
+      "TVL_usd": 22276.96,
+      "TVL_usd_start": 19371.27
     },
     {
       "address": "0x5a9e8cc61f0f96996f01d8ccef0d5abb463d2ab2",
-      "TVL_usd": 17564.88
+      "TVL_usd": 17564.88,
+      "TVL_usd_start": 15273.81
     },
     {
       "address": "0xdffb8480537e8428007a67b60a6dd80b63549322",
-      "TVL_usd": 36290.59
+      "TVL_usd": 36290.59,
+      "TVL_usd_start": 31557.03
     },
     {
       "address": "0x11cee29eedfdbd85447512472939260f66dd2179",
-      "TVL_usd": 38616.96
+      "TVL_usd": 38616.96,
+      "TVL_usd_start": 33579.97
     },
     {
       "address": "0xd31ad7b4173a0228568c8152a2cbc53f41de7661",
-      "TVL_usd": 61284.15
+      "TVL_usd": 61284.15,
+      "TVL_usd_start": 53290.57
     },
     {
       "address": "0x8f4f10ea3842c1c2e35677ae65b78bea9ba4a921",
-      "TVL_usd": 85002.11
+      "TVL_usd": 85002.11,
+      "TVL_usd_start": 73914.88
     },
     {
       "address": "0xb9c5390dbedaf3359c661e7ed9784007c254aa53",
-      "TVL_usd": 39315.03
+      "TVL_usd": 39315.03,
+      "TVL_usd_start": 34186.98
     },
     {
       "address": "0x8deb2fcfaf3cacf2c0d433a7f166c4a709b6bfd8",
-      "TVL_usd": 49561.44
+      "TVL_usd": 49561.44,
+      "TVL_usd_start": 43096.9
     },
     {
       "address": "0x57f3c5027951086ff2644b9946124b2b2055b326",
-      "TVL_usd": 43396.11
+      "TVL_usd": 43396.11,
+      "TVL_usd_start": 37735.75
     },
     {
       "address": "0xb02e87233b6314130b58d9ce11afa87999b3216c",
-      "TVL_usd": 97548.95
+      "TVL_usd": 97548.95,
+      "TVL_usd_start": 84825.17
     },
     {
       "address": "0x16e5e186c917694fe82c22fb28b9fde1d9f78cc7",
-      "TVL_usd": 44395.19
+      "TVL_usd": 44395.19,
+      "TVL_usd_start": 38604.51
     },
     {
       "address": "0x2cc5bcaab73f796013268e780482e66458f22984",
-      "TVL_usd": 10989.15
+      "TVL_usd": 10989.15,
+      "TVL_usd_start": 9555.78
     },
     {
       "address": "0xb6eb7e19d087eb9a109d8ea3e8e7785cd630febf",
-      "TVL_usd": 30089.08
+      "TVL_usd": 30089.08,
+      "TVL_usd_start": 26164.42
     },
     {
       "address": "0x23db8f87155c36c207f3ef2d2a1b0e28e3f9389b",
-      "TVL_usd": 68416.97
+      "TVL_usd": 68416.97,
+      "TVL_usd_start": 59493.02
     },
     {
       "address": "0x82fce48e365974e63532c4cce588bd53ebb3e059",
-      "TVL_usd": 61548.5
+      "TVL_usd": 61548.5,
+      "TVL_usd_start": 53520.43
     },
     {
       "address": "0x2e570bae79ed3c2da6b50858cceb4fc4fcd7c3cd",
-      "TVL_usd": 46698.39
+      "TVL_usd": 46698.39,
+      "TVL_usd_start": 40607.3
     },
     {
       "address": "0x611d852dd9ade3ca7468765cbb6819e26ef71fb8",
-      "TVL_usd": 27595.52
+      "TVL_usd": 27595.52,
+      "TVL_usd_start": 23996.1
     },
     {
       "address": "0xbd780cb79023bfbeae7f6ed9e1b8d8eb9eb6ef91",
-      "TVL_usd": 71731.05
+      "TVL_usd": 71731.05,
+      "TVL_usd_start": 62374.83
     },
     {
       "address": "0x16b3cf67d7790aa28ea268020618c1b7c58011e4",
-      "TVL_usd": 49650.41
+      "TVL_usd": 49650.41,
+      "TVL_usd_start": 43174.27
     },
     {
       "address": "0xd79fc15161ca9c87ee5e0b02c8b6835058722a7b",
-      "TVL_usd": 59473.92
+      "TVL_usd": 59473.92,
+      "TVL_usd_start": 51716.45
     },
     {
       "address": "0xccebbecd809ed7d337bc9d04e33305df46b5ddcf",
-      "TVL_usd": 31835.66
+      "TVL_usd": 31835.66,
+      "TVL_usd_start": 27683.18
     },
     {
       "address": "0xb504dd21e33306cbf2fb7be77a4a8c0cfa2df0e2",
-      "TVL_usd": 20080.14
+      "TVL_usd": 20080.14,
+      "TVL_usd_start": 17460.99
     },
     {
       "address": "0x0216b798bc95b80455e7257f2c37a7ee8a5c2086",
-      "TVL_usd": 75339.8
+      "TVL_usd": 75339.8,
+      "TVL_usd_start": 65512.87
     },
     {
       "address": "0x17d850f7b798ee5042cd14e098decea925448bba",
-      "TVL_usd": 36080.85
+      "TVL_usd": 36080.85,
+      "TVL_usd_start": 31374.65
     },
     {
       "address": "0x44c9a0f1cefdb8a5fc30957eb1753082647054bb",
-      "TVL_usd": 97002.55
+      "TVL_usd": 97002.55,
+      "TVL_usd_start": 84350.04
     },
     {
       "address": "0x445c518d52b887430c14eac08344db5472eb56fe",
-      "TVL_usd": 94212.89
+      "TVL_usd": 94212.89,
+      "TVL_usd_start": 81924.25
     },
     {
       "address": "0xccf9f21ae2664235006b5131c1b91b61048fdbde",
-      "TVL_usd": 41399.13
+      "TVL_usd": 41399.13,
+      "TVL_usd_start": 35999.24
     },
     {
       "address": "0x0f68d41855dd349406696475f5a9dc33668f6307",
-      "TVL_usd": 18743.13
+      "TVL_usd": 18743.13,
+      "TVL_usd_start": 16298.37
     },
     {
       "address": "0xcc21da7d30247aa6d252ac252c403197454ea458",
-      "TVL_usd": 30336.91
+      "TVL_usd": 30336.91,
+      "TVL_usd_start": 26379.92
     },
     {
       "address": "0x000ca811efa4ecdc3cbce9e4fc80903fd22a8db9",
-      "TVL_usd": 27484.76
+      "TVL_usd": 27484.76,
+      "TVL_usd_start": 23899.79
     },
     {
       "address": "0x4ae89c3a0258a91ad11ff48313fc8f7785ed9b27",
-      "TVL_usd": 29527.79
+      "TVL_usd": 29527.79,
+      "TVL_usd_start": 25676.34
     },
     {
       "address": "0xbb9d07c919a7b05a21f2343da3eabc9014ceca07",
-      "TVL_usd": 50195.09
+      "TVL_usd": 50195.09,
+      "TVL_usd_start": 43647.9
     },
     {
       "address": "0x5ff1e6677ac9a796b6aad1ad69980be1b0b2f923",
-      "TVL_usd": 44827.6
+      "TVL_usd": 44827.6,
+      "TVL_usd_start": 38980.52
     },
     {
       "address": "0xe38db181ecbae18024f4aecab3a1124e168a3ce1",
-      "TVL_usd": 15545.41
+      "TVL_usd": 15545.41,
+      "TVL_usd_start": 13517.75
     },
     {
       "address": "0xa850c5cded075fbc6774782635c669a51157903e",
-      "TVL_usd": 27406.09
+      "TVL_usd": 27406.09,
+      "TVL_usd_start": 23831.38
     },
     {
       "address": "0x31d0b34e17b3dad2b9ba337d2dadb86a02507552",
-      "TVL_usd": 18300.56
+      "TVL_usd": 18300.56,
+      "TVL_usd_start": 15913.53
     },
     {
       "address": "0x722782816cdc6b25278f992b6c61215f0837d090",
-      "TVL_usd": 67496.49
+      "TVL_usd": 67496.49,
+      "TVL_usd_start": 58692.6
     },
     {
       "address": "0x91ddb91ad3a30333008a499f04cd5e2d5578c369",
-      "TVL_usd": 17309.32
+      "TVL_usd": 17309.32,
+      "TVL_usd_start": 15051.58
     },
     {
       "address": "0x3c973d2946f2915f557fca6028885efdce15352b",
-      "TVL_usd": 43958.38
+      "TVL_usd": 43958.38,
+      "TVL_usd_start": 38224.68
     },
     {
       "address": "0xc90a5a588fc7e412c78e6e9f4e237d4fead64982",
-      "TVL_usd": 45576.78
+      "TVL_usd": 45576.78,
+      "TVL_usd_start": 39631.98
     },
     {
       "address": "0xf677e86fdbc1ce21a0edc066559beedbe71408b3",
-      "TVL_usd": 54518.12
+      "TVL_usd": 54518.12,
+      "TVL_usd_start": 47407.06
     },
     {
       "address": "0x8de77ddd914c51065668570877da19b0a55ba072",
-      "TVL_usd": 59452.59
+      "TVL_usd": 59452.59,
+      "TVL_usd_start": 51697.9
     },
     {
       "address": "0x52313508431d88337b83945a31cd72c9723a9c78",
-      "TVL_usd": 49200.94
+      "TVL_usd": 49200.94,
+      "TVL_usd_start": 42783.43
     },
     {
       "address": "0x953ff2560e172386c11377e551f25dd4066635bc",
-      "TVL_usd": 83717.25
+      "TVL_usd": 83717.25,
+      "TVL_usd_start": 72797.61
     },
     {
       "address": "0x3d2ee4a26c003ba020342f8fd9662eff5901d59c",
-      "TVL_usd": 70429.38
+      "TVL_usd": 70429.38,
+      "TVL_usd_start": 61242.94
     },
     {
       "address": "0x7ceeceaf663a8869d12519bb5f2024ea05d6a807",
-      "TVL_usd": 14835.12
+      "TVL_usd": 14835.12,
+      "TVL_usd_start": 12900.1
     },
     {
       "address": "0x372639d64e9bb8f0e6aea8f3055e4daa7dc5a8b2",
-      "TVL_usd": 76106.94
+      "TVL_usd": 76106.94,
+      "TVL_usd_start": 66179.95
     },
     {
       "address": "0x4708e8122c7eb7f3bdf252826a8ce54a8726b779",
-      "TVL_usd": 15759.03
+      "TVL_usd": 15759.03,
+      "TVL_usd_start": 13703.5
     },
     {
       "address": "0x2621fa8ec5e6811668dabb629b39c3cbd1443747",
-      "TVL_usd": 66395.73
+      "TVL_usd": 66395.73,
+      "TVL_usd_start": 57735.42
     },
     {
       "address": "0xce372accb858061b90a3215d396d2aecb01d6cbe",
-      "TVL_usd": 98835.22
+      "TVL_usd": 98835.22,
+      "TVL_usd_start": 85943.67
     },
     {
       "address": "0x589ecc29fb37b5d52e0c94a9659602b3100534bf",
-      "TVL_usd": 86513.96
+      "TVL_usd": 86513.96,
+      "TVL_usd_start": 75229.53
     },
     {
       "address": "0xfe5ff6d6e9833cd29b3bf506bf783d2924d79c52",
-      "TVL_usd": 90038.39
+      "TVL_usd": 90038.39,
+      "TVL_usd_start": 78294.25
     },
     {
       "address": "0x4e8c344e381c874d7b352f3c30abec722e2a2f26",
-      "TVL_usd": 45055.83
+      "TVL_usd": 45055.83,
+      "TVL_usd_start": 39178.98
     },
     {
       "address": "0x446266e2a8ceb78d106f9b3d7e0d1727a463c2c8",
-      "TVL_usd": 96707.46
+      "TVL_usd": 96707.46,
+      "TVL_usd_start": 84093.44
     },
     {
       "address": "0x2d9dc40c629472de6dcf748a798b4f90d097e9b1",
-      "TVL_usd": 93731.96
+      "TVL_usd": 93731.96,
+      "TVL_usd_start": 81506.05
     },
     {
       "address": "0x7016e38abaeb1da89f1126adc88a5b15801fd563",
-      "TVL_usd": 19900.34
+      "TVL_usd": 19900.34,
+      "TVL_usd_start": 17304.64
     },
     {
       "address": "0xf1c757259f2ff8de20a1fe1a396cb589a1a1991a",
-      "TVL_usd": 60507.78
+      "TVL_usd": 60507.78,
+      "TVL_usd_start": 52615.46
     },
     {
       "address": "0x9e32fc44a7a4df69b25563beb36d043616185df3",
-      "TVL_usd": 52976.59
+      "TVL_usd": 52976.59,
+      "TVL_usd_start": 46066.6
     },
     {
       "address": "0x9507a02c2f901c3386da53474337f3e163ace1a7",
-      "TVL_usd": 29541.04
+      "TVL_usd": 29541.04,
+      "TVL_usd_start": 25687.86
     },
     {
       "address": "0xeaac9977b33aab4e1dbf146875ef9e9bc24c028a",
-      "TVL_usd": 36874.6
+      "TVL_usd": 36874.6,
+      "TVL_usd_start": 32064.87
     },
     {
       "address": "0xefdf1d479f7c914d4ae69c8a2d33a984ef7da41f",
-      "TVL_usd": 95549.14
+      "TVL_usd": 95549.14,
+      "TVL_usd_start": 83086.21
     },
     {
       "address": "0xdd19587f989f1a3f2373cd9c7384e979054d213c",
-      "TVL_usd": 81802.71
+      "TVL_usd": 81802.71,
+      "TVL_usd_start": 71132.79
     },
     {
       "address": "0x3da573806dec42d88ae2b43c1b221d8a9f13a7c8",
-      "TVL_usd": 45319.31
+      "TVL_usd": 45319.31,
+      "TVL_usd_start": 39408.1
     },
     {
       "address": "0x64fc5a391fe80eaaa70307aa76f6e35db2c23497",
-      "TVL_usd": 15090.59
+      "TVL_usd": 15090.59,
+      "TVL_usd_start": 13122.25
     },
     {
       "address": "0xe6d47c4aed3656967a3f3711113167cd58bbae83",
-      "TVL_usd": 36792.3
+      "TVL_usd": 36792.3,
+      "TVL_usd_start": 31993.3
     },
     {
       "address": "0x5c0053970ec2e498c362586cfd350fd65ceede84",
-      "TVL_usd": 77887.05
+      "TVL_usd": 77887.05,
+      "TVL_usd_start": 67727.87
     },
     {
       "address": "0xa554ae8a5bb3f5f769d275407b4df7ff1b0356f8",
-      "TVL_usd": 23649.56
+      "TVL_usd": 23649.56,
+      "TVL_usd_start": 20564.83
     },
     {
       "address": "0x663885bf8bfd9e4ca25e96cf14109138b9894857",
-      "TVL_usd": 43130.68
+      "TVL_usd": 43130.68,
+      "TVL_usd_start": 37504.94
     },
     {
       "address": "0x4fedf6aa65d96f45f9403b69d4e44e5b95a663e1",
-      "TVL_usd": 54609.63
+      "TVL_usd": 54609.63,
+      "TVL_usd_start": 47486.63
     },
     {
       "address": "0x4b6cb31b0ba5e8c791fb7c985b1a235e081e4e03",
-      "TVL_usd": 37966.92
+      "TVL_usd": 37966.92,
+      "TVL_usd_start": 33014.71
     },
     {
       "address": "0x3f0e724ceef48ec821fcbd0625602479960ba5b4",
-      "TVL_usd": 94709.66
+      "TVL_usd": 94709.66,
+      "TVL_usd_start": 82356.23
     },
     {
       "address": "0x75d214077200d6f97eb5ac57ee047091193481b0",
-      "TVL_usd": 51533.52
+      "TVL_usd": 51533.52,
+      "TVL_usd_start": 44811.76
     },
     {
       "address": "0xa392aa094eb1a67b395c6f68468bf2ccc62d0f57",
-      "TVL_usd": 28741.89
+      "TVL_usd": 28741.89,
+      "TVL_usd_start": 24992.95
     },
     {
       "address": "0x58af60ec10db41c192f43997fb18a9843a40fb0d",
-      "TVL_usd": 19102.99
+      "TVL_usd": 19102.99,
+      "TVL_usd_start": 16611.3
     },
     {
       "address": "0xef7cd4ff4a50470579619749375518222dab0e0d",
-      "TVL_usd": 36856.62
+      "TVL_usd": 36856.62,
+      "TVL_usd_start": 32049.23
     },
     {
       "address": "0x4186569aacf3da5033b09a19efb06c8c0b4df63d",
-      "TVL_usd": 89520.44
+      "TVL_usd": 89520.44,
+      "TVL_usd_start": 77843.86
     },
     {
       "address": "0x9ef1eb80277754f2fdbc6265622665d3f4a3ce44",
-      "TVL_usd": 10649.35
+      "TVL_usd": 10649.35,
+      "TVL_usd_start": 9260.3
     },
     {
       "address": "0xd01fbb3cc839d28c5d691618c7e1983ce804458d",
-      "TVL_usd": 72442.94
+      "TVL_usd": 72442.94,
+      "TVL_usd_start": 62993.86
     },
     {
       "address": "0x2ab9d5aec8843e55d629d55efcc2d12ebfd3a236",
-      "TVL_usd": 34998.5
+      "TVL_usd": 34998.5,
+      "TVL_usd_start": 30433.48
     },
     {
       "address": "0x4f018b6c3d935b563ed58c8ed7c0cae3f14f945e",
-      "TVL_usd": 23967.44
+      "TVL_usd": 23967.44,
+      "TVL_usd_start": 20841.25
     },
     {
       "address": "0x12b121acb6f729f3f54e9374cabd921209a607eb",
-      "TVL_usd": 42992.23
+      "TVL_usd": 42992.23,
+      "TVL_usd_start": 37384.55
     },
     {
       "address": "0xc074fb99d326e30c5fffddfbded2eb2abe706e34",
-      "TVL_usd": 97943.48
+      "TVL_usd": 97943.48,
+      "TVL_usd_start": 85168.24
     },
     {
       "address": "0x6e35786da60a9512d8ec264beee1bcb343bdd86d",
-      "TVL_usd": 17032.51
+      "TVL_usd": 17032.51,
+      "TVL_usd_start": 14810.88
     },
     {
       "address": "0xbbfc284c2417077f3ab6772d23a34a99f90409df",
-      "TVL_usd": 78642.11
+      "TVL_usd": 78642.11,
+      "TVL_usd_start": 68384.44
     },
     {
       "address": "0xb13f4aa015b63400dc3b9bebc1b62edbfa016803",
-      "TVL_usd": 93023.26
+      "TVL_usd": 93023.26,
+      "TVL_usd_start": 80889.79
     },
     {
       "address": "0x6eb7aec45ff085852ec50b75e634085d0b2169ed",
-      "TVL_usd": 73268.79
+      "TVL_usd": 73268.79,
+      "TVL_usd_start": 63711.99
     },
     {
       "address": "0x85b0e4726db10c357465b012b75aa8c4361fdd5f",
-      "TVL_usd": 89045.51
+      "TVL_usd": 89045.51,
+      "TVL_usd_start": 77430.88
     },
     {
       "address": "0x5985f679bc0d688bdfdc21b2a69a828c3ac45cd5",
-      "TVL_usd": 92666.93
+      "TVL_usd": 92666.93,
+      "TVL_usd_start": 80579.94
     },
     {
       "address": "0x0a95ed9269d85ca4100397ff9500bb76eb3f5cf8",
-      "TVL_usd": 22543.83
+      "TVL_usd": 22543.83,
+      "TVL_usd_start": 19603.33
     },
     {
       "address": "0xafb1f66aa43957b10470c656febaef3e96e41fed",
-      "TVL_usd": 41748.33
+      "TVL_usd": 41748.33,
+      "TVL_usd_start": 36302.9
     },
     {
       "address": "0x24c29f6c02c765d0b7b53a8ffba4543f90330f1a",
-      "TVL_usd": 79827.34
+      "TVL_usd": 79827.34,
+      "TVL_usd_start": 69415.08
     }
   ]
 }
