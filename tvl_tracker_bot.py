@@ -17,22 +17,23 @@ def calculate_growth():
     wallets = snapshot['wallets']
     growth_data = []
     for w in wallets:
-        base = round(w['TVL_usd'] / 1.15, 2)
-        if base < 100:
-            continue  # Пропускаем кошельки с низкой активностью
-        current = w['TVL_usd']
-        diff = round(current - base, 2)
-        pct = round((diff / base) * 100, 2)
-        growth_data.append({
-            "address": w['address'],
-            "TVL_usd_start": base,
-            "TVL_usd_now": current,
-            "growth_$": diff,
-            "growth_%": pct
-        })
+        current = w.get('TVL_usd', 0)
+        base = round(current / 1.15, 2)
 
-    df = pd.DataFrame(growth_data).sort_values(by='growth_%', ascending=False).reset_index(drop=True)
+        # Фильтрация
+        if base < 100 or current < 100:
+            continue
+        diff = round(current - base, 2)
+        if diff < 100:
+            continue
+
+        pct = round((diff / base) * 100, 2)
+        growth_data.append({ "address": w['address'], "TVL_usd_start": base,
+                             "TVL_usd_now": current, "growth_$": diff, "growth_%": pct })
+
+    df = pd.DataFrame(growth_data).sort_values(by='growth_$', ascending=False).reset_index(drop=True)
     return df
+
 
 def format_wallet_line(i, row):
     link = f"https://debank.com/profile/{row['address']}"
