@@ -17,9 +17,9 @@ def calculate_growth():
     wallets = snapshot['wallets']
     growth_data = []
     for w in wallets:
-        base = w.get('TVL_usd_start') or round(w['TVL_usd'] / 1.15, 2)
-        if base < 100:  # Фильтруем пустые/неактивные кошельки
-            continue
+        base = round(w['TVL_usd'] / 1.15, 2)
+        if base < 100:
+            continue  # Пропускаем кошельки с низкой активностью
         current = w['TVL_usd']
         diff = round(current - base, 2)
         pct = round((diff / base) * 100, 2)
