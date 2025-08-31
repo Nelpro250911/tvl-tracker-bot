@@ -8,18 +8,23 @@ API_TOKEN = os.getenv('API_TOKEN', 'YOUR_BOT_TOKEN_HERE')
 bot = telebot.TeleBot(API_TOKEN, parse_mode='HTML')
 
 def calculate_growth():
-    with open('debank_snapshot_today.json', 'r') as f:
-        snapshot = json.load(f)
+    try:
+        with open('debank_snapshot_today.json', 'r') as f:
+            snapshot = json.load(f)
+    except FileNotFoundError:
+        return pd.DataFrame()
 
+    wallets = snapshot['wallets']
     growth_data = []
-    for w in snapshot['wallets']:
-        current = w.get('TVL_usd', 0)
-        base = round(current / 1.15, 2)
-        diff = round(current - base, 2)
+    for w in wallets:
+        current = w['TVL_usd']
+        base = w.get('TVL_usd_start') or round(current / 1.15, 2)
 
-        if current < 100 or base < 100 or diff < 100:
+        # Пропускаем кошельки с базовым TVL меньше $100
+        if base < 100:
             continue
 
+        diff = round(current - base, 2)
         pct = round((diff / base) * 100, 2)
         growth_data.append({
             "address": w['address'],
@@ -29,8 +34,9 @@ def calculate_growth():
             "growth_%": pct
         })
 
-    df = pd.DataFrame(growth_data).sort_values(by='growth_$', ascending=False).reset_index(drop=True)
+    df = pd.DataFrame(growth_data).sort_values(by='growth_%', ascending=False).reset_index(drop=True)
     return df
+
 
 
 
